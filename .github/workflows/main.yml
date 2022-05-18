@@ -47,11 +47,11 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: k4n1 
-          password: <ваш_пароль_dockerhub>
+          password: Ker1lis4n7
       - name: Push to Docker Hub
         # Пуш образа в Docker Hub 
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ваш-логин-на-docker-hub/ваш-репозиторий-на-docker-hub:latest
+          tags: k4n1/infra_test:latest
         
